@@ -1,0 +1,93 @@
+  /* 320and 480 */
+  @media (max-width: 320px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header a {
+      margin: 10px 0;
+    }
+  }
+  
+
+
+/* 💻 Tablet	768px – 1024px */
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .header a {
+    margin: 10px 0;
+  }
+}
+
+
+  
+  /* 570 and 768 */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .header a {
+      margin: 10px 0;
+    }
+  }
+
+  /* create responsive her0  */
+
+  @media (max-width: 480px) {
+  .video-content h1 {
+    font-size: 22px;
+  }
+
+  .video-content p {
+    font-size: 14px;
+  }
+
+  .video-content {
+    padding: 0 15px;
+  }
+}
+
+
+/* 320 */
+
+@media (max-width: 320px) {
+.video-content h1 {
+font-size: 1.8rem; 
+ }
+
+.video-content p {
+ font-size: 1rem; 
+}
+
+.video-content button {
+padding: 8px 16px;
+font-size: 0.9rem;
+}
+
+ .container video {
+ min-width: 100vw;
+ min-height: 100vh;
+ object-fit: cover;
+ }
+
+ .video-content {
+ width: 90%;
+ padding: 10px;
+ 
+ box-sizing: border-box;
+ }
+}
+
+
+
